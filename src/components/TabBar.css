@@ -1,0 +1,41 @@
+.tabBar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 390px;
+  display: flex;
+  border-top: 1px solid #e0e0e0;
+  background: #000;
+  z-index: 100;
+}
+
+.tabBarItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 0;
+  border: none;
+  background: none;
+  color: #888;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.tabBarItemActive {
+  color: #fff;
+  background: #504127;
+}
+
+.tabBarItemDisabled {
+  color: #555;
+  cursor: not-allowed;
+}
+
+.tabBarIcon {
+  font-size: 18px;
+  line-height: 1;
+}

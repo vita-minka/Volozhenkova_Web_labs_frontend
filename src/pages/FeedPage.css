@@ -1,0 +1,59 @@
+.feedPage {
+  position: relative;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+  background: #000;
+}
+
+.feedVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feedOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px 16px 80px;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+}
+
+.feedTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.feedDescription {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.feedMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.feedBadge {
+  background: #504127;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.feedLike {
+  color: #ff3b3b;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: auto;
+}
+
+.nextBtn {
+  border-radius: 0;
+  font-weight: 700;
+}

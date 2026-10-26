@@ -1,0 +1,57 @@
+.tilePage {
+  padding: 16px;
+}
+
+.pageTitle {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.filterSelect {
+  margin-bottom: 16px;
+  border-radius: 0;
+}
+
+.tileGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.tileCard {
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+
+.tileImage {
+  height: 130px;
+  object-fit: cover;
+}
+
+.tileBody {
+  padding: 10px;
+}
+
+.tileTitle {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.3;
+  min-height: 34px;
+}
+
+.tileBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tileLike {
+  color: #ff3b3b;
+  font-size: 13px;
+}
+
+.tileArrow {
+  color: #504127;
+  font-size: 16px;
+}
