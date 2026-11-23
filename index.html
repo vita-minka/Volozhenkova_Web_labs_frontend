@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Volozhenkova_Web_labs_frontend/favicon.svg" />
+    <link rel="manifest" href="/Volozhenkova_Web_labs_frontend/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>letters_evolution_stages_frontend</title>
+    <script type="module" crossorigin src="/Volozhenkova_Web_labs_frontend/assets/index-nNOXtlw0.js"></script>
+    <link rel="stylesheet" crossorigin href="/Volozhenkova_Web_labs_frontend/assets/index-uyHKsdNk.css">
+  <link rel="manifest" href="/Volozhenkova_Web_labs_frontend/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/serviceWorker.js')
+            .then(res => console.log('Service Worker registered'))
+            .catch(err => console.log('SW error', err));
+        });
+      }
+    </script>
+  </body>
+</html>
